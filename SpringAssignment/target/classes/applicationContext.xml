@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean id="myUser" class="com.edyoda.Address" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="Addressing1" value="At Post pahur ijara"/>
+        <property name="Addressing2" value="Tq. kalamb dist, Yavatmal"/>
+        <property name="City" value="Yavatmal"/>
+        <property name="State" value="Maharashtra"/>
+        <property name="PinCode" value="445001"/>
+    </bean>
+
+</beans>
